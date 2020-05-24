@@ -4,6 +4,9 @@
   "description": "a single page application that displays a list of items",
   "main": "server.js",
   "scripts": {
+    "dev-web": "parcel watch --no-cache ./src/index.html",
+    "build-web": "parcel build --no-cache ./src/index.html",
+    "start": "nodemon",
     "test": "npm run test"
   },
   "repository": {
